@@ -67,7 +67,7 @@ app.post('/api/orders', (req, res) => {
 
     // Send email notification
     const mailOptions = {
-      from: 'your-email@gmail.com',
+      from: 'ajitraut9561@gmail.com',
       to: 'customer-email@example.com',
       subject: 'Order Confirmation',
       text: `Your order with ID ${results.insertId} has been placed successfully.`
