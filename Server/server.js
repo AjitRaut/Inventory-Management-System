@@ -26,8 +26,8 @@ db.connect(err => {
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'your-email@gmail.com',
-    pass: 'your-email-password'
+    user: 'ajitraut9561@gmail.com',
+    pass: '7796119929'
   }
 });
 
